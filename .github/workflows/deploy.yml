@@ -5,11 +5,11 @@ on:
       - main
       - dev
 env: 
-  MONGODB_DB_NAME: gha-demo
+  MONGODB_DB_NAME: caylent
 jobs:
   test:
     env:
-      MONGODB_CLUSTER_ADDRESS: cluster0.qm47fy6.mongodb.net
+      MONGODB_CLUSTER_ADDRESS: cluster0.3uf7aen.mongodb.net
       MONGODB_USERNAME:  rotochedechichoche
       MONGODB_PASSWORD: gZ8D25t5yR#EDnu
       PORT: 8080
